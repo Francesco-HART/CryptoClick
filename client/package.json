@@ -1,0 +1,42 @@
+{
+  "name": "cryptoclick",
+  "version": "0.1.0",
+  "proxy": "http://api:5000/",
+  "private": true,
+  "dependencies": {
+    "@walletconnect/client": "^1.7.8",
+    "@walletconnect/qrcode-modal": "^1.7.8",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.2.13",
+    "axios": "^0.27.2",
+    "ethers": "^5.6.9",
+    "http-proxy-middleware": "^2.0.6",
+    "@openzeppelin/contracts": "^4.8.0",
+    "axios": "^0.27.2",
+    "hardhat": "^2.12.5",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-konami-code": "^2.3.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "2.1.8",
+    "react-sound": "^1.2.0",
+    "web3": "^1.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
